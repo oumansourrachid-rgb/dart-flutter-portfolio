@@ -6,7 +6,7 @@ abstract class Vehicule {
   void demarrer();
 
   void klaxonner() {
-    print("$_marque: Taratata!");
+    print("$_marque: Taratata! ,vitesse $_vitesseMax");
   }
 
   String getMarque() => _marque;
