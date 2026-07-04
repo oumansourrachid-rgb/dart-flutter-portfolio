@@ -2,11 +2,11 @@ class Photocopieur implements Imprimable, Scannabe {
   String nom;
   Photocopieur(this.nom);
   void imprimer() {
-    print("impression de $nom"); // ← hna kayn nom ✅
+    print("impression de $nom");
   }
 
   void scanner() {
-    print("scan de $nom"); // ← hna kayn nom ✅
+    print("scan de $nom");
   }
 }
 
