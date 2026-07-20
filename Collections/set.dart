@@ -1,5 +1,5 @@
 main() {
-  Set<String> permissions = {"read", "write", "delete", "read", "write"};
+  Set<String> permissions = {"read", "write", "delete"};
   print("length ${permissions.length}");
   permissions.add("admin");
   permissions.add("read");
